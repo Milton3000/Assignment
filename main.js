@@ -78,7 +78,7 @@ async function updateMovie() {
         return;
     }
 
-    console.log("\n\x1b[35mEnter new data for the movie:\x1b[0m");
+    console.log("\n\x1b[35mEnter new data for the movie:\x1b[0m\n");
     console.log("\x1b[33mLeave fields empty and press 'Enter' to keep existing values.\x1b[0m");
     console.log("\x1b[33mThe original information is showcased within brackets [].\x1b[0m\n");
     console.log("\x1b[36mTo add or remove elements from genres, ratings, or cast, rewrite the entire list separated by commas.\x1b[0m");
@@ -153,7 +153,7 @@ async function main() {
                 await deleteMovie();
                 break;
             case "5":
-                console.log("\n\x1b[32mExiting...\x1b[0m\n");
+                console.log("\n\x1b[32mExiting... Psst ... You can check-out any time you like, but you can never leave ;) See you soon! \x1b[0m\n");
                 break;
             default:
                 console.log("\n\x1b[31mInvalid choice. Please enter a number from 1 to 5.\x1b[0m\n");
